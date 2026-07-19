@@ -1,16 +1,52 @@
 const products = [
 {
-name:"كريب نوتيلا",
-price:"7000 د.ع",
+name:"كريب ليالي",
+price:"6000 د.ع",
 category:"crepe",
 image:"images/crepe1.jpg"
 },
 {
-name:"كريب لوتس",
-price:"8000 د.ع",
+name:"مكس كريب",
+price:"6000 د.ع",
 category:"crepe",
 image:"images/crepe2.jpg"
 },
+{
+name:"سوشي كريب",
+price:"5000 د.ع",
+category:"crepe",
+image:"images/crepe3.jpg"
+},
+{
+name:"كريب نوتيلا",
+price:"5000 د.ع",
+category:"crepe",
+image:"images/crepe4.jpg"
+},
+{
+name:"كريب موز ونوتيلا",
+price:"5000 د.ع",
+category:"crepe",
+image:"images/crepe5.jpg"
+},
+{
+name:"كريب بستاشيو",
+price:"5000 د.ع",
+category:"crepe",
+image:"images/crepe6.jpg"
+},
+{
+name:"كريب لوتس",
+price:"5000 د.ع",
+category:"crepe",
+image:"images/crepe7.jpg"
+},
+{
+name:"كريب فواكه",
+price:"5000 د.ع",
+category:"crepe",
+image:"images/crepe8.jpg"
+}
 {
 name:"وافل نوتيلا",
 price:"7000 د.ع",
