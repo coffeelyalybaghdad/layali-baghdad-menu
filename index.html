@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>كوفي ليالي بغداد</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loading">
+    <div class="loader"></div>
+    <p>ليالي بغداد</p>
+</div>
+
+<header class="hero">
+
+    <img src="images/logo.png" class="logo" alt="شعار">
+
+    <img src="images/cover.jpg" class="cover" alt="الغلاف">
+
+    <div class="overlay">
+        <h1>كوفي ليالي بغداد</h1>
+        <p>المنيو الإلكتروني الرسمي</p>
+    </div>
+
+</header>
+
+<section class="search-box">
+    <input type="text" id="search" placeholder="ابحث عن منتج...">
+</section>
+
+<nav class="categories">
+
+<button class="active" data-category="all">الكل</button>
+<button data-category="crepe">كريب</button>
+<button data-category="waffle">وافل</button>
+<button data-category="pancake">بان كيك</button>
+<button data-category="milkshake">ميلك شيك</button>
+<button data-category="ice">فرابيه وايس</button>
+<button data-category="coffee">قهوة</button>
+<button data-category="hot">مشروبات ساخنة</button>
+<button data-category="mojito">موهيتو</button>
+<button data-category="mexican">مكسيكي</button>
+<button data-category="juice">عصائر</button>
+<button data-category="hookah">اراكيل</button>
+</nav>
+
+<main id="menu"></main>
+
+<div id="viewer" class="viewer">
+    <span id="close">✕</span>
+    <img id="viewerImage">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
