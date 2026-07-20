@@ -122,7 +122,11 @@ function showProducts(list) {
     list.forEach(item => {
         menu.innerHTML += `
         <div class="card">
-            <img src="${item.image}" onclick="openImage('${item.image}')">
+            <img
+    src="${item.image}"
+    loading="lazy"
+    decoding="async"
+    onclick="openImage('${item.image}')">
             <div class="info">
                 <h3>${item.name}</h3>
                 <span class="price">${item.price}</span>
