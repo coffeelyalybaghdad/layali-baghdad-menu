@@ -283,47 +283,45 @@ font-size:14px;
 }
 
 }
-.whatsapp{
+/* ===== الأزرار السفلية ===== */
+
+.social-bar{
 position:fixed;
-bottom:20px;
-left:20px;
-width:65px;
-height:65px;
-background:#25D366;
-border-radius:50%;
+left:50%;
+bottom:22px;
+transform:translateX(-50%);
 display:flex;
-justify-content:center;
-align-items:center;
-box-shadow:0 8px 20px rgba(0,0,0,.35);
-transition:.3s;
+gap:14px;
 z-index:9999;
 }
 
-.whatsapp:hover{
-transform:scale(1.1);
-}
-.maps{
-position:fixed;
-left:20px;
-bottom:95px;
-width:64px;
-height:64px;
+.social-btn{
+width:54px;
+height:54px;
+border-radius:50%;
+background:#ffffff;
 display:flex;
 justify-content:center;
 align-items:center;
-background:#ffffff;
-border-radius:50%;
-box-shadow:0 8px 25px rgba(0,0,0,.35);
-transition:.3s;
-z-index:99999;
+text-decoration:none;
+font-size:28px;
+box-shadow:0 6px 16px rgba(0,0,0,.25);
+transition:.25s;
 }
 
-.maps:hover{
-transform:scale(1.1);
-box-shadow:0 10px 30px rgba(0,0,0,.45);
+.social-btn:hover{
+transform:translateY(-3px);
 }
 
-.maps svg{
-width:34px;
-height:34px;
+.instagram{
+color:#E4405F;
+}
+
+.maps{
+color:#DB4437;
+}
+
+.whatsapp{
+color:#25D366;
+}
 }
