@@ -203,6 +203,6 @@ window.onload = () => {
 
         document.querySelector(".loading").style.display = "none";
 
-    }, 1200);
+    }, 300);
 
 };
