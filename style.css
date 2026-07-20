@@ -304,20 +304,26 @@ transform:scale(1.1);
 }
 .maps{
 position:fixed;
-bottom:95px;
 left:20px;
-width:65px;
-height:65px;
-background:#DB4437;
-border-radius:50%;
+bottom:95px;
+width:64px;
+height:64px;
 display:flex;
 justify-content:center;
 align-items:center;
-box-shadow:0 8px 20px rgba(0,0,0,.35);
+background:#ffffff;
+border-radius:50%;
+box-shadow:0 8px 25px rgba(0,0,0,.35);
 transition:.3s;
-z-index:9999;
+z-index:99999;
 }
 
 .maps:hover{
 transform:scale(1.1);
+box-shadow:0 10px 30px rgba(0,0,0,.45);
+}
+
+.maps svg{
+width:34px;
+height:34px;
 }
