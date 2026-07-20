@@ -302,3 +302,22 @@ z-index:9999;
 .whatsapp:hover{
 transform:scale(1.1);
 }
+.maps{
+position:fixed;
+bottom:95px;
+left:20px;
+width:65px;
+height:65px;
+background:#DB4437;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+box-shadow:0 8px 20px rgba(0,0,0,.35);
+transition:.3s;
+z-index:9999;
+}
+
+.maps:hover{
+transform:scale(1.1);
+}
