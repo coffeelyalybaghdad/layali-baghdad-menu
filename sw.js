@@ -1,11 +1,11 @@
-const CACHE_NAME = "layali-baghdad-v1";
+const CACHE_NAME = "layali-baghdad-v2";
 
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/script.js",
-  "/manifest.json"
+  "/layali-baghdad-menu/",
+  "/layali-baghdad-menu/index.html",
+  "/layali-baghdad-menu/style.css",
+  "/layali-baghdad-menu/script.js",
+  "/layali-baghdad-menu/manifest.json"
 ];
 
 self.addEventListener("install", event => {
