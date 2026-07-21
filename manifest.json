@@ -1,7 +1,9 @@
 {
   "name": "كوفي ليالي بغداد",
   "short_name": "ليالي بغداد",
-  "start_url": "/",
+  "id": "/layali-baghdad-menu/",
+  "start_url": "/layali-baghdad-menu/",
+  "scope": "/layali-baghdad-menu/",
   "display": "standalone",
   "background_color": "#111111",
   "theme_color": "#8B5E3C",
